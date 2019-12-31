@@ -1,0 +1,36 @@
+{
+  "name": "styles",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/acmilank22/styles#readme",
+  "bugs": {
+    "url": "https://github.com/acmilank22/styles/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acmilank22/styles.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "npx prettier \"**/*.{js,jsx,ts,tsx,html,vue,css,scss,json,md}\"",
+    "stylelint": "npx stylelint --fix \"**/*.{css,scss,js,jsx,vue}\"",
+    "lint": "npm run prettier && npm run stylelint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.1",
+    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-prettier": "^1.1.2"
+  }
+}
