@@ -2,13 +2,13 @@
   "name": "styles",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/acmilank22/styles#readme",
+  "homepage": "https://github.com/donniean/styles#readme",
   "bugs": {
-    "url": "https://github.com/acmilank22/styles/issues"
+    "url": "https://github.com/donniean/styles/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acmilank22/styles.git"
+    "url": "git+https://github.com/donniean/styles.git"
   },
   "license": "MIT",
   "author": "",
