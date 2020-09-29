@@ -17,7 +17,6 @@
     "prettier": "npx prettier \"**/*.{js,css,scss,json,md}\"",
     "eslint": "npx eslint --fix \"**/*.{js}\"",
     "stylelint": "npx stylelint --fix \"**/*.{js}\"",
-    "lint": "npm run prettier && npm run stylelint && npm run eslint",
     "cspell": "cspell \"**/*\"",
     "commit": "git-cz"
   },
