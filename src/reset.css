@@ -4,12 +4,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  vertical-align: baseline;
   border: 0;
   outline: 0;
 }
 
 html {
-  font-size: 100%;
   line-height: 1.5;
 }
 
@@ -28,15 +33,4 @@ ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-input,
-button,
-textarea {
-  border-radius: 0;
-  appearance: none;
 }
