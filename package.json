@@ -12,7 +12,10 @@
   },
   "license": "MIT",
   "author": "Donnie An",
-  "main": "index.js",
+  "main": "",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prettier": "npx prettier \"**/*.{js,css,scss,json,md}\"",
     "eslint": "npx eslint --fix \"**/*.{js}\"",
