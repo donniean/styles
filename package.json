@@ -1,5 +1,5 @@
 {
-  "name": "styles",
+  "name": "@donniean/styles",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/donniean/styles#readme",
@@ -14,14 +14,17 @@
   "author": "Donnie An",
   "main": "",
   "files": [
-    "dist"
+    "reset.css",
+    "iphonex.css"
   ],
   "scripts": {
     "prettier": "npx prettier \"**/*.{js,css,scss,json,md}\"",
     "eslint": "npx eslint --fix \"**/*.{js}\"",
     "stylelint": "npx stylelint --fix \"**/*.{js}\"",
     "cspell": "cspell \"**/*\"",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "standard-version",
+    "pub": "npm run release &&  npm publish --access public"
   },
   "config": {
     "commitizen": {
@@ -45,6 +48,7 @@
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2",
+    "standard-version": "^9.0.0",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-rational-order": "^0.1.2",
