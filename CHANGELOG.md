@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/donniean/styles/compare/v1.3.0...v1.4.0) (2021-12-17)
+
+### Features
+
+- upgrade ([00ed362](https://github.com/donniean/styles/commit/00ed3622b438d53309dd5dacbe42bbb8bac4a9e3))
+- upgrade ([043a730](https://github.com/donniean/styles/commit/043a7307698ca07ebe9d2844c256b17d5094ae43))
+
 ## [1.3.0](https://github.com/donniean/styles/compare/v1.2.0...v1.3.0) (2021-12-17)
 
 ### Features
