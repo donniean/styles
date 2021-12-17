@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/donniean/styles/compare/v1.2.0...v1.3.0) (2021-12-17)
+
+### Features
+
+- m ([d359ac5](https://github.com/donniean/styles/commit/d359ac56bab7bc76ad91dfd93be2ac6286fbfc71))
+- m ([b88f2eb](https://github.com/donniean/styles/commit/b88f2eb12bb2df6ec3131064eb2496cb7fa75df4))
+- m ([aa74a63](https://github.com/donniean/styles/commit/aa74a63e791c9949cab0757c193620fa2623c44b))
+- m ([b368148](https://github.com/donniean/styles/commit/b368148263de9ca7af9b0c3a5d2d3aae32e7558c))
+- m ([dc2dea6](https://github.com/donniean/styles/commit/dc2dea635b24624410c13864c57a81ee004d5bfa))
+- rm package-lock.json ([6ed4598](https://github.com/donniean/styles/commit/6ed459800681361610962a84041837db038a0494))
+- upgrade dependencies ([58ad0c5](https://github.com/donniean/styles/commit/58ad0c57b8642d2dcc98085d8c7a7f2de8534ed2))
+
 ## [1.2.0](https://github.com/donniean/styles/compare/v1.1.1...v1.2.0) (2020-11-06)
 
 ### Features
