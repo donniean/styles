@@ -18,6 +18,10 @@ img {
   vertical-align: middle;
 }
 
+a {
+  text-decoration: none;
+}
+
 ol,
 ul {
   list-style: none;
@@ -25,8 +29,4 @@ ul {
 
 table {
   border-collapse: collapse;
-}
-
-a {
-  text-decoration: none;
 }
