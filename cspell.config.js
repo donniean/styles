@@ -35,6 +35,8 @@ module.exports = {
     'webpackbar',
     'webstorm',
     'wechat',
+    // fonts
+    'WenQuanYi',
   ],
   ignorePaths: [
     '**/.idea/**',
