@@ -1,10 +1,10 @@
 module.exports = {
+  plugins: ['stylelint-order'],
   extends: [
     'stylelint-config-standard',
     'stylelint-config-rational-order',
     'stylelint-prettier/recommended',
   ],
-  plugins: ['stylelint-order'],
   rules: {
     'color-named': ['never', { ignore: ['inside-function'] }],
     'font-family-name-quotes': 'always-where-recommended',
