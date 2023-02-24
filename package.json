@@ -18,15 +18,17 @@
   ],
   "scripts": {
     "build": "npx postcss src -d dist --env production --ext min.css",
-    "prettier": "npx prettier --write \"**/*.{js,css,scss,json,md}\"",
-    "eslint": "npx eslint --fix \"**/*.js\"",
-    "stylelint": "npx stylelint --fix \"**/*.{css,scss}\"",
-    "cspell": "cspell \"**\"",
-    "prepare": "husky install",
-    "pre-commit": "lint-staged",
     "commit": "git-cz",
-    "release": "npm run build && standard-version",
-    "pub": "npm run release && npm publish --access public"
+    "lint:cspell": "cspell --no-must-find-files \"**\"",
+    "lint:eslint": "npx eslint \"**/*.js\"",
+    "lint:eslint:fix": "npx eslint --fix \"**/*.js\"",
+    "lint:stylelint": "npx stylelint \"**/*.{css,scss}\"",
+    "lint:stylelint:fix": "npx stylelint --fix \"**/*.{css,scss}\"",
+    "pre-commit": "lint-staged",
+    "prepare": "husky install",
+    "prettier": "npx prettier --write \"**/*.{js,css,scss,json,md}\"",
+    "pub": "npm run release && npm publish --access public",
+    "release": "npm run build && standard-version"
   },
   "config": {
     "commitizen": {
@@ -55,7 +57,6 @@
     "prettier": "^2.7.1",
     "standard-version": "^9.5.0",
     "stylelint": "^14.14.1",
-    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-order": "^5.0.0",
