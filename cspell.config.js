@@ -4,6 +4,7 @@ module.exports = {
   words: [
     'browserslistrc',
     'builtins',
+    'cssnano',
     'chunkhash',
     'commitlint',
     'commitlintrc',
