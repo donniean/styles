@@ -38,6 +38,7 @@ module.exports = {
     'wechat',
     // fonts
     'WenQuanYi',
+    'markdownlint',
   ],
   ignorePaths: [
     '**/.idea/**',
