@@ -1,16 +1,22 @@
 # [1.5.0](https://github.com/donniean/styles/compare/v1.4.1...v1.5.0) (2023-04-13)
 
-
 ### Features
 
-* add font-family ([a0a96fa](https://github.com/donniean/styles/commit/a0a96fa616961e91f1abfccee41f94bccdbc5e34))
-* modify LICENSE ([52d7bb5](https://github.com/donniean/styles/commit/52d7bb5d5a7e180363e81f073813bfa6281a6671))
-* modify reset styles ([#9](https://github.com/donniean/styles/issues/9)) ([4272835](https://github.com/donniean/styles/commit/42728352096c438e1f31ac03b164747dccfe0b92))
-* update configs ([#11](https://github.com/donniean/styles/issues/11)) ([1a63c26](https://github.com/donniean/styles/commit/1a63c26b11b892ff0064478009e0715fd7edfe36))
-* upgrade ([86a188d](https://github.com/donniean/styles/commit/86a188db1cbf8fd16f5420d1fdd83ccac9caaa8d))
-* upgrade dependencies ([b2d9aa0](https://github.com/donniean/styles/commit/b2d9aa059b66c3fbd5fe0b5badfe3d2404e2b74b))
-* upgrade dependencies ([#7](https://github.com/donniean/styles/issues/7)) ([462fd4b](https://github.com/donniean/styles/commit/462fd4b6569b1d8a3d97227ea054b11ca0c585e1))
-* upgrade dependencies ([#8](https://github.com/donniean/styles/issues/8)) ([1564b27](https://github.com/donniean/styles/commit/1564b2794a3d158136fea04702804a9ade4b082c))
+- add
+  font-family ([a0a96fa](https://github.com/donniean/styles/commit/a0a96fa616961e91f1abfccee41f94bccdbc5e34))
+- modify
+  LICENSE ([52d7bb5](https://github.com/donniean/styles/commit/52d7bb5d5a7e180363e81f073813bfa6281a6671))
+- modify reset
+  styles ([#9](https://github.com/donniean/styles/issues/9)) ([4272835](https://github.com/donniean/styles/commit/42728352096c438e1f31ac03b164747dccfe0b92))
+- update
+  configs ([#11](https://github.com/donniean/styles/issues/11)) ([1a63c26](https://github.com/donniean/styles/commit/1a63c26b11b892ff0064478009e0715fd7edfe36))
+- upgrade ([86a188d](https://github.com/donniean/styles/commit/86a188db1cbf8fd16f5420d1fdd83ccac9caaa8d))
+- upgrade
+  dependencies ([b2d9aa0](https://github.com/donniean/styles/commit/b2d9aa059b66c3fbd5fe0b5badfe3d2404e2b74b))
+- upgrade
+  dependencies ([#7](https://github.com/donniean/styles/issues/7)) ([462fd4b](https://github.com/donniean/styles/commit/462fd4b6569b1d8a3d97227ea054b11ca0c585e1))
+- upgrade
+  dependencies ([#8](https://github.com/donniean/styles/issues/8)) ([1564b27](https://github.com/donniean/styles/commit/1564b2794a3d158136fea04702804a9ade4b082c))
 
 # Changelog
 
