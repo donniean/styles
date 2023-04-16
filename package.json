@@ -1,7 +1,7 @@
 {
   "name": "@donniean/styles",
   "version": "1.5.0",
-  "description": "styles",
+  "description": "opinionated styles",
   "homepage": "https://github.com/donniean/styles#readme",
   "bugs": {
     "url": "https://github.com/donniean/styles/issues"
@@ -19,27 +19,27 @@
   "scripts": {
     "build": "npx postcss src -d dist --env production --ext min.css",
     "commit": "cz",
-    "lint:cspell": "cspell --no-must-find-files \"**\"",
+    "lint:cspell": "cspell lint --no-progress --relative --no-must-find-files --dot --gitignore \"**\"",
     "lint:eslint": "npx eslint \"**/*.{js,cjs}\"",
     "lint:eslint:fix": "npx eslint --fix \"**/*.{js,cjs}\"",
     "lint:htmlhint": "htmlhint \"**/*.html\"",
     "lint:markdownlint": "markdownlint --fix \"**/*.md\"",
+    "lint:prettier": "prettier --check --ignore-unknown \"**/*.{js,cjs,json,html,css,md,yaml,yml}\"",
+    "lint:prettier:fix": "prettier --write --ignore-unknown \"**/*.{js,cjs,json,html,css,md,yaml,yml}\"",
     "lint:stylelint": "stylelint \"**/*.css\"",
     "lint:stylelint:fix": "stylelint --fix \"**/*.css\"",
     "pre-commit": "lint-staged --concurrent false",
     "prepare": "husky install",
-    "prettier": "prettier --write \"**/*.{js,cjs,json,html,css,md,yaml,yml}\"",
-    "pub": "npm run release && npm publish --access public",
-    "release": "npm run build && standard-version",
     "semantic-release": "semantic-release",
     "sort-package-json": "sort-package-json"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/eslint-parser": "^7.21.3",
-    "@commitlint/cli": "^17.5.1",
-    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
     "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.3.0",
     "cspell": "^6.31.1",
@@ -60,9 +60,8 @@
     "prettier": "^2.8.7",
     "semantic-release": "^21.0.1",
     "sort-package-json": "^2.4.1",
-    "standard-version": "^9.5.0",
-    "stylelint": "^15.4.0",
+    "stylelint": "^15.5.0",
     "stylelint-config-recess-order": "^4.0.0",
-    "stylelint-config-standard": "^32.0.0"
+    "stylelint-config-standard": "^33.0.0"
   }
 }
