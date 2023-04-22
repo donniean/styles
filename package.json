@@ -19,6 +19,7 @@
   "scripts": {
     "build": "npx postcss src -d dist --env production --ext min.css",
     "commit": "cz",
+    "preinstall": "npx only-allow npm",
     "lint:cspell": "cspell lint --no-progress --relative --no-must-find-files --dot --gitignore \"**\"",
     "lint:eslint": "eslint \"**/*.{js,mjs,cjs}\"",
     "lint:eslint:fix": "eslint --fix \"**/*.{js,mjs,cjs}\"",
