@@ -4,19 +4,29 @@ module.exports = {
     gitattributes: true,
     editorconfig: true,
     prettier: {
-      extensions: ['js', 'cjs', 'json', 'html', 'css', 'md', 'yaml', 'yml'],
+      patterns: ['**'],
+    },
+    eslint: {
+      patterns: ['**/*.{js,mjs,cjs}'],
+      plugins: {
+        node: true,
+      },
     },
     stylelint: {
-      extensions: ['css'],
+      patterns: ['**/*.css'],
     },
-    htmlhint: true,
-    markdownlint: true,
+    htmlhint: {
+      patterns: ['**/*.html'],
+    },
+    markdownlint: {
+      patterns: ['**/*.md'],
+    },
     cspell: {
-      extensions: ['**'],
+      patterns: ['**'],
     },
+    'sort-package-json': true,
     commitlint: true,
     commitizen: true,
-    'sort-package-json': true,
     'lint-staged': true,
     husky: true,
   },
