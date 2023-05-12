@@ -8,9 +8,6 @@ module.exports = {
     },
     eslint: {
       patterns: ['**/*.{js,mjs,cjs}'],
-      plugins: {
-        node: true,
-      },
     },
     stylelint: {
       patterns: ['**/*.css'],
