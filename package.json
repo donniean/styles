@@ -34,7 +34,8 @@
     "lint:stylelint:fix": "stylelint --fix \"**/*.css\"",
     "pre-commit": "lint-staged --concurrent false",
     "prepare": "husky install",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "serve": "serve"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
@@ -64,6 +65,7 @@
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.8",
     "semantic-release": "^21.0.2",
+    "serve": "^14.2.0",
     "sort-package-json": "^2.4.1",
     "stylelint": "^15.6.2",
     "stylelint-config-recess-order": "^4.0.0",
