@@ -7,5 +7,5 @@ export default {
   '*.{js,mjs,cjs}': 'eslint --fix',
   '*.css': 'stylelint --fix',
   '*.html': 'htmlhint',
-  '*.md': 'markdownlint  --dot --fix',
+  '*.md': 'markdownlint --dot --fix',
 };
