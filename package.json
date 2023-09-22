@@ -64,7 +64,7 @@
     "postcss": "^8.4.30",
     "postcss-cli": "^10.1.0",
     "prettier": "^3.0.3",
-    "semantic-release": "^22.0.0",
+    "semantic-release": "^22.0.1",
     "serve": "^14.2.1",
     "sort-package-json": "^2.5.1",
     "stylelint": "^15.10.3",
