@@ -45,7 +45,7 @@
     "@semantic-release/git": "^10.0.1",
     "@types/eslint": "^8.44.3",
     "commitizen": "^4.3.0",
-    "cspell": "^7.3.6",
+    "cspell": "^7.3.7",
     "cssnano": "^6.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.50.0",
