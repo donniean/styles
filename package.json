@@ -43,7 +43,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@types/eslint": "^8.56.1",
+    "@types/eslint": "^8.56.2",
     "commitizen": "^4.3.0",
     "cspell": "^8.3.2",
     "cssnano": "^6.0.3",
