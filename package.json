@@ -46,7 +46,7 @@
     "@types/eslint": "^8.56.5",
     "commitizen": "^4.3.0",
     "cspell": "^8.6.0",
-    "cssnano": "^6.0.5",
+    "cssnano": "^6.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
