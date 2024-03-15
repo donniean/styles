@@ -38,7 +38,7 @@
     "serve": "serve"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.1.0",
+    "@commitlint/cli": "^19.2.0",
     "@commitlint/config-conventional": "^19.1.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^6.0.3",
@@ -64,7 +64,7 @@
     "postcss": "^8.4.35",
     "postcss-cli": "^11.0.0",
     "prettier": "^3.2.5",
-    "semantic-release": "^23.0.2",
+    "semantic-release": "^23.0.3",
     "serve": "^14.2.1",
     "sort-package-json": "^2.8.0",
     "stylelint": "^16.2.1",
