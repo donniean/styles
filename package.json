@@ -23,7 +23,7 @@
     "lint:cspell": "cspell lint --no-progress --relative --no-must-find-files --dot --gitignore \"**\"",
     "lint:eslint": "eslint \"**/*.{js,mjs,cjs}\"",
     "lint:eslint:fix": "npm run lint:eslint -- --fix",
-    "lint:htmlhint": "htmlhint \"**/*.html\"",
+    "lint:htmlhint": "htmlhint --ignore=\"**/coverage/**\" \"**/*.html\"",
     "lint:markdownlint": "markdownlint --dot \"**/*.md\"",
     "lint:markdownlint:fix": "npm run lint:markdownlint -- --fix",
     "lint:prettier": "prettier --check --ignore-unknown \"**\"",
@@ -36,7 +36,7 @@
     "prepare": "husky",
     "semantic-release": "semantic-release",
     "serve": "serve",
-    "lint-all": "npm-run-all --parallel lint:*",
+    "lint-all": "npm-run-all lint:*",
     "lint-all:fix": "npm-run-all lint:*:fix"
   },
   "devDependencies": {
