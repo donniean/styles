@@ -37,7 +37,7 @@
     "pre-commit": "lint-staged --concurrent false",
     "prepare": "husky",
     "semantic-release": "semantic-release",
-    "serve": "serve"
+    "serve": "serve example/"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
